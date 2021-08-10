@@ -3,6 +3,29 @@
 .header {
 	flex: 0 0 auto;
 	height: 80px;
+	display: flex;
+	align-items: center;
+	&-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&-body {
+		display: flex;
+		align-items: center;
+	}
+	.menu {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-direction: row;
+		li {
+			margin-right: 50px;
+			color: $text_secondary;
+			font-size: 18px;
+			// font-weight: 600;
+		}
+	}
 }
 .burger {
 	height: 25px;
