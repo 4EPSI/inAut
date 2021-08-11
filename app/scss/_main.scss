@@ -2,5 +2,262 @@
 .main {
 	flex: 1 0 auto;
 	overflow: hidden;
-    padding-top: 80px;
+    // padding-top: 80px;
+}
+.home {
+	max-width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+	&-content {
+		background-image: url(../img/top_home.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 500px;
+		border-radius: 10px;
+		display: flex !important;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding: 70px;
+		// width: 1110px;
+	}
+	.container {
+		max-width: 100%;
+	}
+	&-title {
+		font-size: 24px;
+		font-weight: 500;
+		color: #FFFFFF;
+		font-family: Vollkorn;
+		font-style: italic;
+		line-height: 40px;
+	}
+	&-text {
+		color: #FFFFFF;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		line-height: 58px;
+		margin-bottom: 30px;
+	}
+	&-btn {
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 16px;
+		border: 1px solid #F0EDE9;
+		padding: 12px;
+		width: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&:hover {
+			color: #FFFFFF;
+		}
+		.slick-prev  {
+			height: 20px;
+			width: 40px;
+			background: red;
+		}
+	}
+	&-block-second {
+		background: url(../img/profess.png);
+	}
+	&-block-third {
+		background: url(../img/unter.png);
+	}
+}
+
+// slick
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 90%;
+	left: 0;
+	right: 0;
+	transform: translate(0px, 10%);
+	li {
+		margin-right: 15px;
+		button {
+			min-width: 15px;
+			height: 15px;
+			font-size: 0;
+			background: none;
+			border: 1px solid #FFFFFF;
+			padding: 0;
+		}
+	}
+}
+.slick-next {
+	position: absolute;
+	top: 85%;
+	right: 18%;
+}
+.slick-prev {
+	z-index: 1;
+	position: absolute;
+	top: 85%;
+	right: 5%;
+}
+.decor {
+	border: 1px solid #343434;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1px;
+	height: 100px;
+}
+.description {
+	text-align: center;
+	// font-weight: 600;
+	font-size: 26px;
+	color: $text_secondary;
+	padding-top: 90px;
+	padding-bottom: 190px;
+}
+
+// block-reference
+.reference {
+	padding-bottom: 200px;
+	&-left {
+		padding-right: 25px;
+	}
+	&-right {
+		padding-left: 25px;
+	}
+	&-block {
+		margin-bottom: 100px;
+		img {
+			margin-bottom: 10px;
+		}
+		div {
+			color: #AF8F72;
+			// font-family: Vollkorn;
+			// font-style: italic;
+			// font-weight: 500;
+			// font-size: 23px;
+			// line-height: 30px;
+			margin-bottom: 25px;
+		}
+		h2 {
+			font-size: 30px;
+			font-weight: 700;
+			color: $accent;
+		}
+		p {
+			font-size: 20px;
+			line-height: 31px;
+			color: $accent;
+			margin-bottom: 30px;
+		}
+		a {
+			color: #AF8F72;
+			border: 1px solid #AF8F72;
+			&:hover {
+				background: #AF8F72;
+				color: #fff;
+			}
+		}
+	}
+}
+// neurodiversity
+.neurodiversity {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background: #F0EDE9;
+	text-align: center;
+	&-title {
+		color: #333333;
+		margin-bottom: 45px;
+	}
+	h1 {
+		max-width: 700px;
+		font-size: 50px;
+		color: $text_secondary;
+		font-weight: 700;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 58px;
+		margin-bottom: 35px;
+	}
+	p {
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 22px;
+		color: #333333;
+		margin-bottom: 30px;
+	}
+	.text-decor {
+		text-decoration: underline;
+	}
+	img {
+		margin-bottom: 12px;
+	}
+	&-more {
+		color: #AF8F72;
+		text-transform: uppercase;
+		font-size: 18px;
+		// font-weight: 600;
+	}
+}
+
+// current
+.current {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	&-title {
+		font-size: 28px;
+		color: #BD9D81;
+		margin-bottom: 35px;
+	}
+	&-content {
+		border: 2px solid #AF8F72;
+		box-sizing: border-box;
+		border-radius: 12px;
+		padding: 40px;
+		text-align: center;
+		min-height: 420px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		img {
+			// margin-bottom: 40px;
+		}
+		h2 {
+			font-size: 24px;
+			font-weight: 700;
+			color: $text_secondary;
+			// margin-bottom: 30px;
+		}
+		div {
+			font-size: 18px;
+			color: $accent;
+			font-weight: 400;
+			// margin-bottom: 20px;
+		}
+		a {
+			color: #AF8F72;
+			font-size: 16px;
+			font-weight: 700;
+			text-decoration: underline;
+		}
+	}
+	.row {
+		margin-bottom: 30px;
+	}
+	&-link {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		color: #AF8F72;
+		font-size: 18px;
+		img {
+			margin-left: 20px;
+		}
+		&:hover {
+			color: #AF8F72;
+		}
+	}
 }
