@@ -25,6 +25,11 @@
 			font-size: 18px;
 			// font-weight: 600;
 		}
+		a {
+			&:hover {
+				color: #AF8F72;
+			}
+		}
 	}
 	.container {
 		max-width: 100%;

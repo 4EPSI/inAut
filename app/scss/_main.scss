@@ -69,37 +69,39 @@
 }
 
 // slick
-.slick-dots {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	top: 90%;
-	left: 0;
-	right: 0;
-	transform: translate(0px, 10%);
-	li {
-		margin-right: 15px;
-		button {
-			min-width: 15px;
-			height: 15px;
-			font-size: 0;
-			background: none;
-			border: 1px solid #FFFFFF;
-			padding: 0;
-		}
-	}
-}
-.slick-next {
-	position: absolute;
-	top: 85%;
-	right: 18%;
-}
-.slick-prev {
-	z-index: 1;
-	position: absolute;
-	top: 85%;
-	right: 5%;
-}
+// .slick-dots {
+// 	display: flex;
+// 	justify-content: center;
+// 	position: absolute;
+// 	top: 90%;
+// 	left: 0;
+// 	right: 0;
+// 	transform: translate(0px, 10%);
+// 	li {
+// 		margin-right: 15px;
+// 		button {
+// 			min-width: 15px;
+// 			height: 15px;
+// 			font-size: 0;
+// 			background: none;
+// 			border: 1px solid #FFFFFF;
+// 			padding: 0;
+// 		}
+// 	}
+// }
+// .slick-next {
+// 	position: absolute;
+// 	top: 85%;
+// 	right: 5%;
+// }
+// .slick-prev {
+// 	z-index: 1;
+// 	position: absolute;
+// 	top: 85%;
+// 	right: 15%;
+// }
+
+// decor
 .decor {
 	border: 1px solid #343434;
 	margin-left: auto;
@@ -170,7 +172,7 @@
 		color: #333333;
 		margin-bottom: 45px;
 	}
-	h1 {
+	&-item {
 		max-width: 700px;
 		font-size: 50px;
 		color: $text_secondary;
@@ -180,7 +182,7 @@
 		line-height: 58px;
 		margin-bottom: 35px;
 	}
-	p {
+	&-text {
 		max-width: 700px;
 		margin-left: auto;
 		margin-right: auto;
@@ -191,7 +193,7 @@
 	.text-decor {
 		text-decoration: underline;
 	}
-	img {
+	&-img {
 		margin-bottom: 12px;
 	}
 	&-more {
@@ -221,7 +223,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-around;
+		height: 435px;
 		img {
 			// margin-bottom: 40px;
 		}
@@ -236,12 +239,6 @@
 			color: $accent;
 			font-weight: 400;
 			// margin-bottom: 20px;
-		}
-		a {
-			color: #AF8F72;
-			font-size: 16px;
-			font-weight: 700;
-			text-decoration: underline;
 		}
 	}
 	.row {
@@ -259,5 +256,66 @@
 		&:hover {
 			color: #AF8F72;
 		}
+	}
+}
+// contact-us
+.contact-us {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background: rgba(138, 153, 159, 0.4);
+	color: $text_secondary;
+	text-align: center;
+	h3 {
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	div {
+		font-size: 20px;
+		font-weight: 400;
+		max-width: 600px;
+		margin-bottom: 35px;
+	}
+	a {
+		border: 1px solid #000000;
+		box-sizing: border-box;
+		color: $text_secondary;
+		margin-left: auto;
+		margin-right: auto;
+		&:hover {
+			color: $text_secondary;
+		}
+	}
+}
+// our-customers
+.our-customers {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	&-content {
+		padding: 70px;
+		background-image: url(../img/autimus.png);
+		height: 460px;
+	}
+	&-title {
+		max-width: 500px;
+		font-size: 36px;
+		line-height: 46px;
+		margin-bottom: 30px;
+		font-weight: 700;
+		color: #fff;
+	}
+	&-block {
+		background: #000;
+	}
+	.markus {
+		background: url(../img/markus.png);
+	}
+	.markus-title {
+		max-width: 700px;
+	}
+	&-heading {
+		max-width: 700px;
+		font-size: 24px;
+		line-height: 30px;
 	}
 }
