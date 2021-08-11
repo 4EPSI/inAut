@@ -17,8 +17,8 @@
 	.menu {
 		display: flex;
 		align-items: center;
-		flex-direction: column;
-		flex-direction: row;
+		// flex-direction: column;
+		// flex-direction: row;
 		li {
 			margin-right: 50px;
 			color: $text_secondary;
@@ -38,6 +38,7 @@
 	}
 }
 .burger {
+	display: block;
 	height: 25px;
 	width: 30px;
 	position: relative;
