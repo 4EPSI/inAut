@@ -1,0 +1,91 @@
+// MAIN
+.main {
+	flex: 1 0 auto;
+	overflow: hidden;
+    // padding-top: 80px;
+}
+// search-of-trial-missions
+.search-missions{
+    &-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: 4px solid red;
+        }
+    }
+    &-way {
+        display: flex;
+        margin-bottom: 70px;
+    }
+    &-link {
+        font-size: 14px;
+        font-weight: 400;
+        color: #AF8F72;
+        &:hover {
+            color: #AF8F72;
+        }
+        img {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    &-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #F0EDE9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+    }
+    &-article {
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 35px;
+        color: #141414;
+        font-weight: 700;
+        line-height: 50px;
+        max-width: 700px;
+    }
+    .search-text {
+        max-width: 760px;
+        margin-bottom: 0;
+    }
+    &-back {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    &-img {
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        background: #AF8F72;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+    }
+    &-content {
+        display: flex;
+        align-items: center;
+    }
+    &-text {
+        font-size: 19px;
+        font-weight: 700;
+        color: #AF8F72;
+    }
+    .container {
+        margin-bottom: 0;
+    }
+}

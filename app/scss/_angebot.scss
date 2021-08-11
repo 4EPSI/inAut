@@ -40,6 +40,15 @@
     &-block {
         padding-top: 75px;
         padding-bottom: 75px;
+        // &:before {
+        //     height: 100px;
+        //     content: '';
+        //     position: absolute;
+        //     top: 100%;
+        //     left: 50%;
+        //     transform: translate(0, -100%);
+        //     border: 1px solid #343434;
+        // }
         &-content {
             margin-bottom: 100px;
             // height: 565px;
