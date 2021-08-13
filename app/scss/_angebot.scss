@@ -32,13 +32,13 @@
         color: $accent;
         font-size: 20px;
         font-weight: 400;
-        margin-bottom: 80px;
+        // margin-bottom: 80px;
     }
     .an-text {
         max-width: 720px;
     }
     &-block {
-        padding-top: 75px;
+        // padding-top: 75px;
         padding-bottom: 75px;
         // &:before {
         //     height: 100px;
@@ -51,9 +51,9 @@
         // }
         &-content {
             margin-bottom: 100px;
-            display: flex;
-            flex-direction: column;
-            flex-flow: wrap;
+            // display: flex;
+            // flex-direction: column;
+            // flex-flow: wrap;
             // height: 565px;
             // display: flex;
             // flex-direction: column;
@@ -77,9 +77,11 @@
             font-weight: 700;
             color: $accent;
             margin-bottom: 30px;
+            min-height: 75px;
         }
         &-text {
             margin-bottom: 30px;
+            min-height: 120px;
         }
         &-link {
             color: #af8f72;

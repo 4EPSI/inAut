@@ -1,0 +1,25 @@
+// MAIN
+.main {
+	flex: 1 0 auto;
+	overflow: hidden;
+    // padding-top: 80px;
+}
+// jadvanced-training
+.advanced-training {
+    color: $text_secondary;
+    font-size: 22px;
+    &-content {
+        .advanced-text {
+            margin-bottom: 50px;
+        }
+    }
+    &-title {
+        font-weight: 700;
+    }
+    &-text {
+        font-weight: 400;
+        // max-width: 780px;
+        margin-bottom: 50px;
+    }
+
+}
