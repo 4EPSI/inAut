@@ -1,0 +1,17 @@
+// MAIN
+.main {
+	flex: 1 0 auto;
+	overflow: hidden;
+    // padding-top: 80px;
+}
+// job-description
+.job-description {
+    padding-bottom: 95px;
+    &-link {
+        color: #af8f72;
+        text-decoration: revert;
+        &:hover {
+            color: #af8f72;
+        }
+    }
+}
