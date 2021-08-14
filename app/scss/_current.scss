@@ -1,0 +1,40 @@
+// MAIN
+.main {
+	flex: 1 0 auto;
+	overflow: hidden;
+    // padding-top: 80px;
+}
+// current
+.news  {
+    padding-top: 90px;
+    display: flex;
+    // margin-bottom: 110px;
+    &-left {
+        width: 45%;
+    }
+    &-right {
+        width: 55%;
+        padding: 50px;
+        background: #F0EDE9;
+    }
+    &-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: $text_secondary;
+    }
+    &-card {
+        padding: 50px;
+        background: #F0EDE9;
+    }
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 90px;
+    }
+    &-link {
+        display: flex;
+        justify-content: center;
+        // margin-top: 90px;
+        // margin-bottom: 90px;
+    }
+}
