@@ -5,6 +5,11 @@
     // padding-top: 80px;
 }
 .angebot {
+    &-top {
+        max-width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     &-header {
         padding-top: 30px;
         padding-bottom: 30px;

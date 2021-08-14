@@ -8,6 +8,17 @@
 	max-width: 100%;
 	padding-left: 40px;
 	padding-right: 40px;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		height: 100px;
+		width:1px;
+		background: $text_secondary;
+		top: 100%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+	}
 	&-content {
 		background-image: url(../img/top_home.png);
 		background-repeat: no-repeat;
@@ -223,7 +234,7 @@
 	// font-weight: 600;
 	font-size: 26px;
 	color: $text_secondary;
-	padding-top: 90px;
+	padding-top: 190px;
 	padding-bottom: 190px;
 }
 
@@ -418,6 +429,9 @@
 	}
 	.markus {
 		background: url(../img/markus.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 	.markus-title {
 		max-width: 700px;
