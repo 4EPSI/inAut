@@ -1,0 +1,31 @@
+// MAIN
+.main {
+	flex: 1 0 auto;
+	overflow: hidden;
+    // padding-top: 80px;
+}
+// blog-article
+.blog-article {
+    font-weight: 400;
+    color: $text_secondary;
+    font-size: 22px;
+    width: 775px;
+    h2 {
+        font-weight: 700;
+        font-size: 22px;
+    }
+    ul {
+        margin-left: 30px;
+        margin-bottom: 45px;
+    }
+    li {
+        list-style: disc;
+    }
+    &-btn {
+        color: $text_secondary;
+        border: 1px solid #000000;
+        &:hover {
+            color: $text_secondary;
+        }
+    }
+}
