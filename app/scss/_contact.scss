@@ -1,0 +1,64 @@
+// MAIN
+.main {
+	flex: 1 0 auto;
+	overflow: hidden;
+    // padding-top: 80px;
+}
+// contact
+.contact {
+    padding-top: 140px;
+    width: 790px;
+    h1 {
+        font-size: 40px;
+        color: #141414;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 20px;
+        // max-width: 700px;
+    }
+    &-text {
+        color: $accent;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 35px;
+    }
+    &-block-content {
+        margin-bottom: 30px;
+    }
+    &-block-left {
+        color: $text_secondary;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        p {
+            font-weight: 400;
+            max-width: 185px;
+        }
+        &-text {
+            color: $accent;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+    &-block-right {
+        font-size: 20px;
+        font-weight: 400;
+        color: $text_secondary;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        a {
+            margin-left: 20px;
+            color: #717171;
+            text-decoration: revert;
+        }
+    }
+    &-map {
+        padding-bottom: 200px;
+    }
+}
