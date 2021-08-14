@@ -55,7 +55,10 @@
         padding: 30px;
     }
     .angebot-block-title {
-        font-size: 22px;
+        font-size: 21px;
+    }
+    .angebot-text {
+        font-size: 18px;
     }
 }
 
@@ -70,7 +73,8 @@
     .home-btn {
         width: 100%;
     }
-    .reference-block h2 {
+    .reference-block h2,
+    .angebot-title {
         font-size: 28px;
     }
     .reference {
@@ -83,6 +87,23 @@
     .current {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+    .angebot-top {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .angebot-block-content {
+        text-align: center;
+    }
+    .angebot-block-title {
+        min-height: 0;
+        margin-bottom: 10px;
+    }
+    .angebot-block-text {
+        min-height: 0;
+    }
+    .neurodiversity-item {
+        font-size: 26px;
     }
 }
 

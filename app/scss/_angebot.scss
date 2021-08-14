@@ -56,13 +56,13 @@
         // }
         &-content {
             margin-bottom: 100px;
-            // display: flex;
-            // flex-direction: column;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             // flex-flow: wrap;
             // height: 565px;
             // display: flex;
             // flex-direction: column;
-            // justify-content: space-between;
         }
         &-img {
             width: 185px;
