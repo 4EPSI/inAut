@@ -11,6 +11,9 @@
         height: 100%;
         object-fit: cover;
     }
+    .reference {
+        padding-bottom: 100px;
+    }
 }
 
 /* ≥992px */
@@ -159,7 +162,8 @@
     .about-us-block {
         padding-bottom: 70px;
     }
-    .our-team {
+    .our-team,
+    .angebot-block {
         padding-bottom: 35px;
     }
     .footer-content {
@@ -187,7 +191,7 @@
         font-size: 16px;
     }
     .search-missions-container {
-        padding-bottom: 0;
+        padding-bottom: 50px;
         padding-top: 50px;
     }
     .jobs-block {
@@ -200,7 +204,14 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .jobs-content {
+        padding-bottom: 70px;
+    }
+    .search-missions-article {
+        margin-bottom: 15px !important;
+    }
 }
+
 
 /* ≥576px */
 @include media-breakpoint-down(xs) {
