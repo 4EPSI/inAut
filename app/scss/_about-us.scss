@@ -111,9 +111,15 @@
     }
     &-martina {
         background-image: url(../img/natascha-nata.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     &-alexandra {
         background: url(../img/alexandra.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     &-indent {
         // padding: 0;

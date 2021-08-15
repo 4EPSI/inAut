@@ -4,7 +4,9 @@
 
 /* ≥1200px */
 @include media-breakpoint-down(lg) {
-
+    .our-team-block {
+        min-height: 525px;
+    }
 }
 
 /* ≥992px */
@@ -60,6 +62,15 @@
     .angebot-text {
         font-size: 18px;
     }
+    .our-team-right {
+        padding-left: 15px;
+    }
+    .our-team-left {
+        padding-right: 15px;
+    }
+    .about-us-block {
+        width: 100%;
+    }
 }
 
 /* ≥768px */
@@ -88,7 +99,8 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .angebot-top {
+    .angebot-top,
+    .header .container {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -105,13 +117,47 @@
     .neurodiversity-item {
         font-size: 26px;
     }
+    .search-missions-way {
+        flex-wrap: wrap;
+    }
+    .search-missions-link {
+        margin-bottom: 8px;
+    }
+    .search-missions h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .search-missions-link img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .search-missions-item {
+        flex-direction: column-reverse;
+    }
+    .line-dec {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-us-block {
+        padding-bottom: 70px;
+    }
+    .about-us-link {
+        width: 100%;
+    }
 }
 
 /* ≥576px */
 @include media-breakpoint-down(xs) {
 
 }
-
+@media (max-width: 320px) {
+    .search-missions h1 {
+        font-size: 22px;
+    }
+    .contact-us h3 {
+        font-size: 28px;
+    }
+}
 
 /* ==========  Mobile First  ========== */
 
