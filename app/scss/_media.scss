@@ -7,6 +7,10 @@
     .our-team-block {
         min-height: 525px;
     }
+    .news-left-img {
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 /* ≥992px */
@@ -68,8 +72,18 @@
     .our-team-left {
         padding-right: 15px;
     }
-    .about-us-block {
+    .about-us-block,
+    .blog-article {
         width: 100%;
+    }
+    .news-title {
+        font-size: 24px;
+    }
+    .angebot-item {
+        font-size: 20px;
+    }
+    .news-card {
+        min-height: 502px;
     }
 }
 
@@ -81,7 +95,11 @@
     .description {
         padding-bottom: 100px;
     }
-    .home-btn {
+    .home-btn,
+    .about-us-link,
+    .news-left,
+    .news-right,
+    .contact {
         width: 100%;
     }
     .reference-block h2,
@@ -141,8 +159,46 @@
     .about-us-block {
         padding-bottom: 70px;
     }
-    .about-us-link {
-        width: 100%;
+    .our-team {
+        padding-bottom: 35px;
+    }
+    .footer-content {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .news {
+        display: block;
+        padding-top: 35px;
+    }
+    .text-p,
+    .news-left-block {
+        margin-bottom: 35px;
+    }
+    .news-content {
+        display: block;
+    }
+    .news-card {
+        min-height: auto;
+    }
+    .blog-article {
+        padding-bottom: 60px;
+    }
+    .search-missions-text {
+        font-size: 16px;
+    }
+    .search-missions-container {
+        padding-bottom: 0;
+        padding-top: 50px;
+    }
+    .jobs-block {
+        padding: 30px;
+    }
+    .contact {
+        padding-top: 50px;
+    }
+    .our-customers {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
@@ -156,6 +212,19 @@
     }
     .contact-us h3 {
         font-size: 28px;
+    }
+    .news-right,
+    .news-card {
+        padding: 30px;
+    }
+    .search-missions-text {
+        font-size: 12px;
+    }
+    .blog-article-block {
+        padding: 20px;
+    }
+    .jobs-block h2 {
+        font-size: 22px;
     }
 }
 
