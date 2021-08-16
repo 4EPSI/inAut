@@ -39,7 +39,7 @@
         left: 0;
         right: 0;
         top: 80px;
-        background: #fff;
+        background: $text_secondary;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -51,7 +51,8 @@
     .burger {
         display: block;
     }
-    .header .menu li{
+    .header .menu li {
+        color: #DCD2C5;
         padding-top: 10px;
         margin-bottom: 10px;
         margin-left: 0;
@@ -129,6 +130,7 @@
     }
     .angebot-block-content {
         text-align: center;
+        margin-bottom: 50px;
     }
     .angebot-block-title {
         min-height: 0;
@@ -136,6 +138,7 @@
     }
     .angebot-block-text {
         min-height: 0;
+        margin-bottom: 10px;
     }
     // .neurodiversity-item {
     //     font-size: 26px;
