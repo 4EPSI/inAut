@@ -14,21 +14,37 @@ $(document).on('click', function (e) {
 });
 
 // swiper
-var swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
-      clickable: true,
     },
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
     },
-    simulateTouch: false,
-    loop: true,
     speed: 300,
 });
+$('.swiper-dots').on('click', '.swiper-dot', function() {
+  const index = $(this).data('index');
+  swiper.slideTo(index);
+  console.log(index);
+});
 
+
+// var swiper = new Swiper(".mySwiper2", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
 
 // $('.customer-slider').slick({
 //     dots: true,
