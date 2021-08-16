@@ -515,9 +515,9 @@
 }
 // our-customers
 .our-customers {
-	padding-top: 200px;
-	padding-bottom: 200px;
-	position: relative;
+	padding-top: 190px;
+	padding-bottom: 190px;
+	// position: relative;
 	&-content {
 		padding: 70px;
 		background-image: url(../img/autimus.png);
@@ -531,9 +531,9 @@
 		font-weight: 700;
 		color: #fff;
 	}
-	&-block {
-		background: #000;
-	}
+	// &-block {
+	// 	background: #000;
+	// }
 	.markus {
 		background: url(../img/markus.png);
 		background-repeat: no-repeat;
@@ -548,6 +548,17 @@
 		font-size: 24px;
 		line-height: 30px;
 	}
+	// &-block {
+	// 	padding: 50px;
+	// }
+	// .swiper-pagination {
+	// 	position: initial;
+	// 	padding-top: 30px;
+	// }
+
+
+
+
 	// .swiper-container-horizontal>
 	// .swiper-pagination-bullets,
 	// .swiper-pagination-custom,
