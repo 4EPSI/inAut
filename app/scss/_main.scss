@@ -521,7 +521,11 @@
 		padding: 70px;
 		background-image: url(../img/autimus.png);
 		height: 460px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
+	// &-swiper {}
 	&-block {
 		position: relative;
 	}

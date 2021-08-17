@@ -13,5 +13,40 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+    }
+    .swiper-container {
+        position: initial;
+    }
+    .swiper-button-next {
+        right: -3%;
+        color: #AF8F72;
+        transform: translate(-3%, -35%);
+        top: 35%;
+    }
+    .swiper-button-prev {
+        left: -3%;
+        color: #AF8F72;
+        transform: translate(-3%, -35%);
+        top: 35%;
+    }
+    .swiper-pagination {
+        position: initial;
+        padding-top: 50px;
+    }
+    .swiper-pagination-bullet {
+		height: 15px;
+		width: 15px;
+		background: none;
+		border: 2px solid #AF8F72;
+		box-sizing: border-box;
+
+	}
+	.swiper-pagination-bullet-active {
+		background: #AF8F72;
+	}
+    .swiper-slide  {
+        display: flex;
+        justify-content: space-around;
     }
 }
