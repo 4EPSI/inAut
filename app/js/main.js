@@ -31,6 +31,15 @@ $('.swiper-dots').on('click', '.swiper-dot', function() {
   console.log(index);
 });
 
+$('.swiper-dot span').on('click', function () {
+  $('.swiper-dot span').removeClass('active');
+  $(this).addClass('active');
+});
+// $('.swiper-dot div').on('click', function () {
+//   $('.swiper-dot div').removeClass('active');
+//   $(this).addClass('active');
+// });
+
 // swiper2
 var swiper2 = new Swiper(".mySwiper2", {
   slidesPerView: 1,
@@ -78,6 +87,8 @@ var swiper3 = new Swiper(".mySwiper3", {
     }
   }
 });
+
+
 
 
 // $('.customer-slider').slick({

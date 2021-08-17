@@ -24,7 +24,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		height: 500px;
+		height: 610px;
 		border-radius: 10px;
 		display: flex !important;
 		flex-direction: column;
@@ -73,9 +73,15 @@
 	}
 	&-block-second {
 		background: url(../img/profess.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 	&-block-third {
 		background: url(../img/unter.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 
 	.swiper-pagination  {
@@ -346,7 +352,7 @@
 
 // block-reference
 .reference {
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 	&-left {
 		padding-right: 25px;
 	}
@@ -596,5 +602,14 @@
 	.swiper-button-next,
 	.swiper-button-prev {
 		color: #AF8F72;
+	}
+	.swiper-button-next:after,
+	.swiper-container-rtl,
+	.swiper-button-prev:after {
+		font-size: 20px;
+	}
+	&-mob {
+		padding: 20px;
+		background: #F0EDE9;
 	}
 }
