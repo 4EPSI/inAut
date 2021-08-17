@@ -39,7 +39,7 @@
         left: 0;
         right: 0;
         top: 80px;
-        background: $text_secondary;
+        background: #fff;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -52,7 +52,7 @@
         display: block;
     }
     .header .menu li {
-        color: #DCD2C5;
+        // color: #DCD2C5;
         padding-top: 10px;
         margin-bottom: 10px;
         margin-left: 0;

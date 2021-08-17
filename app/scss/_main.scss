@@ -517,11 +517,13 @@
 .our-customers {
 	padding-top: 190px;
 	padding-bottom: 190px;
-	// position: relative;
 	&-content {
 		padding: 70px;
 		background-image: url(../img/autimus.png);
 		height: 460px;
+	}
+	&-block {
+		position: relative;
 	}
 	&-title {
 		max-width: 500px;
@@ -551,10 +553,10 @@
 	// &-block {
 	// 	padding: 50px;
 	// }
-	// .swiper-pagination {
-	// 	position: initial;
-	// 	padding-top: 30px;
-	// }
+	.swiper-pagination {
+		position: initial;
+		padding-top: 30px;
+	}
 
 
 
@@ -567,6 +569,15 @@
 	// 	position: initial;
 	// 	margin-top: 30px;
 	// }
+	.swiper-container {
+		position: initial;
+	}
+	.swiper-button-next {
+		right: -3%;
+	}
+	.swiper-button-prev {
+		left: -3%;
+	}
 	.swiper-pagination-bullet {
 		height: 15px;
 		width: 15px;

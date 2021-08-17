@@ -31,7 +31,7 @@ $('.swiper-dots').on('click', '.swiper-dot', function() {
   console.log(index);
 });
 
-
+// swiper2
 var swiper2 = new Swiper(".mySwiper2", {
   slidesPerView: 1,
   spaceBetween: 30,
@@ -45,6 +45,23 @@ var swiper2 = new Swiper(".mySwiper2", {
     prevEl: ".swiper-button-prev"
   },
 });
+
+
+//swiper3
+var swiper3 = new Swiper(".mySwiper3", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
 
 // $('.customer-slider').slick({
 //     dots: true,
