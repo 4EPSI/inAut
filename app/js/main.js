@@ -31,14 +31,14 @@ $('.swiper-dots').on('click', '.swiper-dot', function() {
   console.log(index);
 });
 
-$('.swiper-dot span').on('click', function () {
-  $('.swiper-dot span').removeClass('active');
-  $(this).addClass('active');
-});
-// $('.swiper-dot div').on('click', function () {
-//   $('.swiper-dot div').removeClass('active');
+// $('.swiper-dot span').on('click', function () {
+//   $('.swiper-dot span').removeClass('active');
 //   $(this).addClass('active');
 // });
+$('.swiper-dot').on('click', function () {
+  $('.swiper-dot').removeClass('active');
+  $(this).addClass('active');
+});
 
 // swiper2
 var swiper2 = new Swiper(".mySwiper2", {
