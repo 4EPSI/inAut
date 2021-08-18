@@ -11,11 +11,24 @@
     // margin-bottom: 110px;
     &-left {
         width: 45%;
+        &-block {
+            width: 45%;
+            // margin-right: 50px;
+        }
     }
     &-right {
         width: 55%;
         padding: 50px;
         background: #F0EDE9;
+        &-block {
+            width: 50%;
+        }
+    }
+    &-block {
+        &-img {
+            height: auto;
+            min-height: 406px;
+        }
     }
     &-title {
         font-size: 30px;
@@ -25,6 +38,8 @@
     &-card {
         padding: 50px;
         background: #F0EDE9;
+        min-height: 424px;
+        height: auto;
     }
     &-content {
         display: flex;
