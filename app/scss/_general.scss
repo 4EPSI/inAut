@@ -151,3 +151,196 @@ button, .btn {
 .decoration {
 	height: 100px;
 }
+
+// angebot / global
+.global {
+    &-top {
+        max-width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    &-header {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    &-img {
+        border-radius: 8px;
+        width: 100%;
+    }
+    &-item {
+        font-size: 23px;
+        color: #AF8F72;
+        line-height: 30px;
+        font-weight: 500;
+        font-style: italic;
+        font-family: Vollkorn;
+        margin-bottom: 20px;
+    }
+    &-title {
+        font-size: 40px;
+        color: #141414;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    &-text {
+        color: $accent;
+        font-size: 20px;
+        font-weight: 400;
+        // margin-bottom: 80px;
+    }
+    .an-text {
+        max-width: 720px;
+    }
+    &-block {
+        // padding-top: 75px;
+        padding-bottom: 75px;
+        // &:before {
+        //     height: 100px;
+        //     content: '';
+        //     position: absolute;
+        //     top: 100%;
+        //     left: 50%;
+        //     transform: translate(0, -100%);
+        //     border: 1px solid #343434;
+        // }
+        &-content {
+            margin-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            // flex-flow: wrap;
+            // height: 565px;
+            // display: flex;
+            // flex-direction: column;
+        }
+        &-img {
+            width: 185px;
+            height: 190px;
+            background: #F0EDE9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+        &-title {
+            font-size: 30px;
+            line-height: 38px;
+            font-weight: 700;
+            color: $accent;
+            margin-bottom: 30px;
+            min-height: 75px;
+        }
+        &-text {
+            margin-bottom: 30px;
+            min-height: 120px;
+        }
+        &-link {
+            color: #af8f72;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+    }
+    .word-text {
+        max-width: 750px;
+        margin-bottom: 60px;
+    }
+}
+
+// breadcrumbs / search-of-trial-missions
+.breadcrumbs {
+    &-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        // &:before {
+        //     content: '';
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     border: 4px solid red;
+        // }
+    }
+    &-way {
+        display: flex;
+        margin-bottom: 70px;
+    }
+    &-link {
+        font-size: 14px;
+        font-weight: 400;
+        color: #AF8F72;
+        &:hover {
+            color: #AF8F72;
+        }
+        img {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    &-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #F0EDE9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+    }
+    &-article {
+        margin-bottom: 0 !important;
+    }
+    h1 {
+        font-size: 35px;
+        color: #141414;
+        font-weight: 700;
+        line-height: 50px;
+        max-width: 700px;
+    }
+    .search-text {
+        max-width: 760px;
+        margin-bottom: 0;
+    }
+    &-back {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    &-img {
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        background: #AF8F72;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+        img {
+            height: 20px;
+        }
+    }
+    &-content {
+        display: flex;
+        align-items: center;
+    }
+    &-text {
+        font-size: 19px;
+        font-weight: 700;
+        color: #AF8F72;
+    }
+    .container {
+        margin-bottom: 0;
+    }
+}
+// coaching-job
+.coaching-job {
+    &-title {
+        max-width: 750px !important;
+    }
+}
