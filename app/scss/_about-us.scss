@@ -1,9 +1,3 @@
-// MAIN
-.main {
-	flex: 1 0 auto;
-	overflow: hidden;
-    // padding-top: 80px;
-}
 // about-us
 .about-us {
     &-block {
@@ -53,6 +47,11 @@
         height: 58px;
         // margin-bottom: 160px;
         // margin-top: 75px;
+        &:hover {
+            color: #FFFFFF;
+			background: #AF8F72;
+			border: 1px solid $hover-btn;
+        }
     }
     &-item {
         color: $accent;
@@ -156,6 +155,17 @@
     }
     &-link {
         text-decoration: underline;
+        a {
+            &:hover {
+                color: #AF8F72;
+                text-decoration: none;
+                transition: all 0.3s ease;
+            }
+        }
+        &:hover {
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
     }
 }
 .team-indent {

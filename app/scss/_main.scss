@@ -64,6 +64,8 @@
 		justify-content: center;
 		&:hover {
 			color: #FFFFFF;
+			background: #AF8F72;
+			border: 1px solid $hover-btn;
 		}
 		.slick-prev  {
 			height: 20px;
@@ -427,11 +429,16 @@
 	}
 	&-img {
 		margin-bottom: 12px;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 	&-more {
 		color: #AF8F72;
 		text-transform: uppercase;
 		font-size: 18px;
+		display: flex;
+		justify-content: center;
 		// font-weight: 600;
 	}
 }
@@ -486,7 +493,7 @@
 			margin-left: 20px;
 		}
 		&:hover {
-			color: #AF8F72;
+			color: $hover;
 		}
 	}
 }
@@ -515,7 +522,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		&:hover {
-			color: $text_secondary;
+			color: #fff;
 		}
 	}
 }

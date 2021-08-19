@@ -22,11 +22,19 @@
         display: flex;
         align-items: center;
         // font-weight: 600;
+        a {
+            &:hover {
+                color: #AF8F72;
+            }
+        }
     }
     &-data {
         margin-left: 20px;
         color: #6c6c6a;
         text-decoration: revert;
+        &:hover {
+            color: #AF8F72;
+        }
     }
     ul {
         li {

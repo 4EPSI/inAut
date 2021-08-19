@@ -1,9 +1,3 @@
-// MAIN
-.main {
-	flex: 1 0 auto;
-	overflow: hidden;
-    // padding-top: 80px;
-}
 // contact
 .contact {
     padding-top: 140px;
@@ -56,6 +50,11 @@
             margin-left: 20px;
             color: #717171;
             text-decoration: revert;
+            &:hover {
+                color: #AF8F72;
+                text-decoration: none;
+                transition: all 0.3s ease;
+            }
         }
     }
     &-map {

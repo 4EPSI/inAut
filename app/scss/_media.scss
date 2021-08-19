@@ -156,6 +156,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .angebot-img {
         height: 200px;
         object-fit: cover;
@@ -247,11 +248,14 @@
     }
     .jobs-content {
         padding-bottom: 60px;
-        margin-bottom: 110px;
+        // margin-bottom: 110px;
     }
     // .search-missions-article {
     //     margin-bottom: 15px !important;
     // }
+    .home {
+        padding-top: 30px;
+    }
     .home-text {
         font-size: 32px;
         line-height: 37px;

@@ -1,9 +1,3 @@
-// MAIN
-.main {
-	flex: 1 0 auto;
-	overflow: hidden;
-    // padding-top: 80px;
-}
 // search-of-trial-missions
 .search-missions{
     &-container {
@@ -75,6 +69,9 @@
         align-items: center;
         justify-content: center;
         margin-right: 25px;
+        img {
+            height: 20px;
+        }
     }
     &-content {
         display: flex;
