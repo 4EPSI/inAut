@@ -31,7 +31,7 @@ $('.swiper-dots').on('click', '.swiper-dot', function() {
   console.log(index);
 });
 
-// $('.swiper-dot span').on('click', function () {
+// $('.swiper-dot span').on('click', function () {test
 //   $('.swiper-dot span').removeClass('active');
 //   $(this).addClass('active');
 // });
