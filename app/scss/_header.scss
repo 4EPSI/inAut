@@ -4,6 +4,9 @@
 	height: 80px;
 	display: flex;
 	align-items: center;
+	// @include for-mobile {
+	// 	background: red;
+	// }
 	&-content {
 		display: flex;
 		justify-content: space-between;

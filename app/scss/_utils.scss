@@ -1,0 +1,22 @@
+// Media mixins
+@mixin for-lg {
+    @include media-breakpoint-down(lg) {
+      @content;
+    }
+}
+@mixin for-md {
+    @include media-breakpoint-down(md) {
+      @content;
+    }
+}
+@mixin for-sm {
+    @include media-breakpoint-down(sm) {
+      @content;
+    }
+}
+
+@mixin for-xl {
+    @include media-breakpoint-down(xl) {
+      @content;
+    }
+}

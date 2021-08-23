@@ -82,11 +82,11 @@
         padding: 35px;
         padding-left: 50px;
         padding-right: 50px;
-        background: url(../img/natascha-nikolic.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 420px;
+        // min-height: 420px;
+        flex-grow: 1;
         margin-bottom: 35px;
         position: relative;
         display: flex;
@@ -102,29 +102,24 @@
             opacity: 0.9;
         }
     }
-    &-bg {
-        background: url(../img/aunt_nikolic.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    &-martina {
-        background-image: url(../img/natascha-nata.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    &-alexandra {
-        background: url(../img/alexandra.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    &-indent {
+    &-item {
         // padding: 0;
         // margin-right: 15px;
         // margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
         margin-bottom: 50px;
+        a {
+            font-size: 22px;
+            font-weight: 400;
+            color: #000;
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+                color: #AF8F72;
+            }
+        }
     }
     &-content {
         z-index: 1;
@@ -134,16 +129,19 @@
     &-ul {
         color: $accent;
         font-weight: 400;
-        font-size: 21px;
+        font-size: 22px;
+        li {
+            list-style: disc;
+        }
+        // strong {
+        //     text-transform: uppercase;
+        // }
     }
     &-strong {
         text-transform: uppercase;
     }
-    &-li {
-        list-style: disc;
-    }
     &-title {
-        font-size: 27px;
+        font-size: 28px;
         font-weight: 700;
         color: $accent;
     }
@@ -159,12 +157,12 @@
             &:hover {
                 color: #AF8F72;
                 text-decoration: none;
-                transition: all 0.3s ease;
+                // transition: all 0.3s ease;
             }
         }
         &:hover {
             text-decoration: none;
-            transition: all 0.3s ease;
+            // transition: all 0.3s ease;
         }
     }
 }
