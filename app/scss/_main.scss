@@ -14,7 +14,7 @@
 		transform: translate(-50%, 0%);
 	}
 	&-content {
-		background-image: url(../img/top_home.png);
+		// background-image: url(../img/top_home.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -67,18 +67,18 @@
 			background: red;
 		}
 	}
-	&-block-second {
-		background: url(../img/profess.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
-	&-block-third {
-		background: url(../img/unter.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
+	// &-block-second {
+	// 	background: url(../img/profess.png);
+	// 	background-repeat: no-repeat;
+	// 	background-size: cover;
+	// 	background-position: center;
+	// }
+	// &-block-third {
+	// 	background: url(../img/unter.png);
+	// 	background-repeat: no-repeat;
+	// 	background-size: cover;
+	// 	background-position: center;
+	// }
 
 	.swiper-pagination  {
 		color: #fff;
@@ -526,7 +526,10 @@
 	padding-bottom: 190px;
 	&-content {
 		padding: 70px;
-		background-image: url(../img/autimus.png);
+		// background-image: url(../img/autimus.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 		height: 460px;
 		display: flex;
 		flex-direction: column;
@@ -547,12 +550,6 @@
 	// &-block {
 	// 	background: #000;
 	// }
-	.markus {
-		background: url(../img/markus.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
 	.markus-title {
 		max-width: 700px;
 	}
