@@ -182,13 +182,13 @@
     // .neurodiversity-item {
     //     font-size: 26px;
     // }
-    .breadcrumbs-way {
+    .breadcrumbs {
        display: none;
     }
     // .breadcrumbs-link {
     //     margin-bottom: 8px;
     // }
-    .breadcrumbs h1 {
+    .page-description h1 {
         font-size: 32px;
         line-height: 36px;
         margin-bottom: 20px;
@@ -232,10 +232,10 @@
     .blog-article {
         padding-bottom: 60px;
     }
-    .breadcrumbs-text {
+    .page-description-text {
         font-size: 16px;
     }
-    .breadcrumbs-container {
+    .page-description-top{
         padding-bottom: 50px;
         padding-top: 50px;
     }
@@ -345,7 +345,7 @@
     .news-right {
         padding: 20px;
     }
-    .breadcrumbs-back {
+    .go-block {
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -361,7 +361,7 @@
 
 }
 @media (max-width: 320px) {
-    .breadcrumbs h1 {
+    .page-description h1 {
         font-size: 22px;
     }
     .contact-us h3 {
@@ -371,7 +371,7 @@
     .news-card {
         padding: 30px;
     }
-    .breadcrumbs-text {
+    .page-description-text {
         font-size: 12px;
     }
     .blog-article-block {
