@@ -45,6 +45,13 @@
             list-style: disc;
         }
     }
+    @include for-lg {
+        width: 100%;
+    }
+    @include for-sm {
+        padding-bottom: 60px;
+        font-size: 18px;
+    }
     // &-arows {
     //     display: flex;
     //     justify-content: space-between;

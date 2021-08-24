@@ -59,5 +59,23 @@
     }
     &-map {
         padding-bottom: 200px;
+        @include for-sm {
+            padding-bottom: 0;
+        }
+    }
+    @include for-sm {
+        padding-top: 50px;
+        width: 100%;
+    }
+}
+.arrow-left-mob {
+    @include for-lg {
+        display: none;
+    }
+    @include for-xl {
+        display: none;
+    }
+    @include for-sm {
+        display: block;
     }
 }

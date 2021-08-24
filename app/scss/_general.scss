@@ -146,7 +146,14 @@ button, .btn {
 		background: $text_secondary;
 		// border: 1px solid #000000;
 		// transform: rotate(90deg);
+        @include for-sm {
+            height: 80px;
+        }
 	}
+    @include for-sm {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 .decoration {
 	height: 100px;
@@ -158,14 +165,34 @@ button, .btn {
         max-width: 100%;
         padding-left: 40px;
         padding-right: 40px;
+        @include for-sm {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        &-content {
+            @include for-sm {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
     }
     &-header {
         padding-top: 30px;
         padding-bottom: 30px;
+        @include for-sm {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
     }
     &-img {
         border-radius: 8px;
         width: 100%;
+        @include for-sm {
+            height: 200px;
+            object-fit: cover;
+        }
     }
     &-item {
         font-size: 23px;
@@ -181,6 +208,9 @@ button, .btn {
         color: #141414;
         font-weight: 700;
         line-height: 50px;
+        @include for-sm {
+            font-size: 28px;
+        }
     }
     &-text {
         color: $accent;
@@ -213,6 +243,9 @@ button, .btn {
             // height: 565px;
             // display: flex;
             // flex-direction: column;
+            @include for-sm {
+                margin-bottom: 50px;
+            }
         }
         &-img {
             width: 185px;
@@ -233,17 +266,34 @@ button, .btn {
             color: $accent;
             margin-bottom: 30px;
             // min-height: 75px;
+            @include for-md {
+                font-size: 20px;
+            }
+            @include for-sm {
+                // min-height: 0;
+                margin-bottom: 10px;
+            }
         }
         &-text {
             margin-bottom: 30px;
             flex-grow: 1;
             // min-height: 120px;
+            @include for-md {
+                font-size: 18px;
+            }
+            @include for-sm {
+                // min-height: 0;
+                margin-bottom: 10px;
+            }
         }
         &-link {
             color: #af8f72;
             font-size: 16px;
             font-weight: 700;
             text-decoration: underline;
+        }
+        @include for-sm {
+            padding-bottom: 35px;
         }
     }
     .word-text {
@@ -257,6 +307,10 @@ button, .btn {
     &-top {
         padding-top: 100px;
         padding-bottom: 100px;
+        @include for-sm {
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
     }
     .breadcrumbs {
         display: flex;
@@ -272,6 +326,9 @@ button, .btn {
                 margin-left: 20px;
                 margin-right: 20px;
             }
+        }
+        @include for-sm {
+            display: none;
         }
     }
     &-block {
@@ -298,48 +355,62 @@ button, .btn {
         font-weight: 700;
         line-height: 50px;
         max-width: 700px;
+        @include for-sm {
+            font-size: 32px;
+            line-height: 36px;
+            margin-bottom: 20px;
+        }
     }
     &-text {
         max-width: 760px;
         margin-bottom: 0;
-    }
-    .go-block {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        &-content {
-            display: flex;
-            align-items: center;
-        }
-        &-previous {
-            height: 42px;
-            width: 42px;
-            border-radius: 50%;
-            background: #AF8F72;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 25px;
-            img {
-                height: 20px;
-            }
-        }
-        &-text {
-            font-size: 19px;
-            font-weight: 700;
-            color: #AF8F72;
-        }
-        &-premature {
-            display: flex;
-            justify-content: space-between;
-        }
-        &-next {
-            margin-right: 0;
-            margin-left: 25px;
+        @include for-sm {
+            font-size: 16px;
         }
     }
     // .container {
-    //     margin-bottom: 0;
-    // }
+        //     margin-bottom: 0;
+        // }
+}
+
+// go block
+.go-block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &-content {
+        display: flex;
+        align-items: center;
+    }
+    &-previous {
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        background: #AF8F72;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+        img {
+            height: 20px;
+        }
+    }
+    &-text {
+        font-size: 19px;
+        font-weight: 700;
+        color: #AF8F72;
+    }
+    &-premature {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-next {
+        margin-right: 0;
+        margin-left: 25px;
+    }
+    @include for-sm {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }
 
 // breadcrumbs / search-of-trial-missions
@@ -430,6 +501,11 @@ button, .btn {
     //     margin-bottom: 0;
     // }
 // }
+.indent-col {
+    @include for-sm {
+        margin-bottom: 20px;
+    }
+}
 // coaching-job
 .coaching-job {
     &-title {

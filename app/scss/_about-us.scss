@@ -10,6 +10,12 @@
         margin-right: auto;
         padding-bottom: 160px;
         // padding-top: 75px;
+        @include for-md {
+            width: 100%;
+        }
+        @include for-sm {
+            padding-bottom: 70px;
+        }
     }
     &-img {
         width: 170px;
@@ -52,6 +58,9 @@
 			background: #AF8F72;
 			border: 1px solid $hover-btn;
         }
+        @include for-sm {
+            width: 100%;
+        }
     }
     &-item {
         color: $accent;
@@ -74,9 +83,15 @@
     padding-bottom: 170px;
     &-left {
         padding-right: 30px;
+        @include for-md {
+            padding-right: 15px;
+         }
     }
     &-right {
         padding-left: 30px;
+        @include for-md {
+           padding-left: 15px;
+        }
     }
     &-block {
         padding: 35px;
@@ -100,6 +115,11 @@
             right: 0;
             background: #F0EDE9;
             opacity: 0.9;
+        }
+        &-mob {
+            @include for-sm {
+                display: none;
+            }
         }
     }
     &-item {
@@ -165,6 +185,22 @@
             // transition: all 0.3s ease;
         }
     }
+    &-img-mob {
+        @include for-lg {
+            display: none;
+        }
+        @include for-xl {
+            display: none;
+        }
+        @include for-sm {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    @include for-sm {
+        padding-bottom: 35px;
+    }
 }
 .team-indent {
     margin-bottom: 20px;
@@ -174,4 +210,7 @@
 }
 .text-p {
     margin-bottom: 50px;
+    @include for-sm {
+        margin-bottom: 35px;
+    }
 }

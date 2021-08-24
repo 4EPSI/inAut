@@ -1,418 +1,418 @@
-@import "variables";
+// @import "variables";
 
-/* ==========  Desktop First  ========== */
+// /* ==========  Desktop First  ========== */
 
-/* ≥1200px */
-@include media-breakpoint-down(lg) {
-    // .our-team-block {
-    //     min-height: 525px;
-    // }
-    .news-left-img {
-        height: 100%;
-        object-fit: cover;
-    }
-    .reference {
-        padding-bottom: 100px;
-    }
-    .our-customers-mob,
-    .our-customers-mob-img,
-    .our-team-img-mob,
-    .arrow-left-mob {
-        display: none;
-    }
-    .reference-block h2 {
-        font-size: 26px;
-    }
-    .reference-left,
-    .reference-right {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .news-card {
-        padding: 30px;
-    }
-}
+// /* ≥1200px */
+// @include media-breakpoint-down(lg) {
+//     // .our-team-block {
+//     //     min-height: 525px;
+//     // }
+//     // .news-left-img {
+//     //     height: 100%;
+//     //     object-fit: cover;
+//     // }
+//     // .reference {
+//     //     padding-bottom: 100px;
+//     // }
+//     // .our-customers-mob,
+//     // .our-customers-mob-img,
+//     // .our-team-img-mob,
+//     // .arrow-left-mob {
+//     //     display: none;
+//     // }
+//     // .reference-block h2 {
+//     //     font-size: 26px;
+//     // }
+//     // .reference-left,
+//     // .reference-right {
+//     //     display: flex;
+//     //     flex-direction: column;
+//     //     justify-content: space-between;
+//     // }
+//     // .news-card {
+//     //     padding: 30px;
+//     // }
+// }
 
-/* ≥992px */
-@include media-breakpoint-down(md) {
-    .header {
-        background:#fff;
-        z-index: 3;
-        // height: 80px;
-        // position: fixed;
-        // top: 0;
-        // left: 0;
-        // right: 0;
-        // color: #fff;
-        transition: all 0.3s ease;
-        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
-    }
-    .menu.active {
-        opacity: 1;
-        visibility: visible;
-    }
-    .menu {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 80px;
-        background: $text_secondary;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3 ease;
-        height: 100%;
-    }
-    .burger {
-        display: block;
-    }
-    .header .menu li {
-        color: #DCD2C5;
-        padding-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 0;
-        margin-right: 0 !important;
-    }
-    .current-content h2 {
-        font-size: 18px;
-    }
-    .current-content {
-        padding: 30px;
-    }
-    .global-block-title {
-        font-size: 21px;
-    }
-    .global-text {
-        font-size: 18px;
-    }
-    .our-team-right {
-        padding-left: 15px;
-    }
-    .our-team-left {
-        padding-right: 15px;
-    }
-    .about-us-block,
-    .blog-article {
-        width: 100%;
-    }
-    .news-title {
-        font-size: 24px;
-    }
-    // .global-item {
-    //     font-size: 20px;
-    // }
-    .our-customers-title {
-        line-height: 38px;
-        font-size: 20px;
-    }
-    .news-img {
-        height: 250px;
-    }
-}
+// /* ≥992px */
+// @include media-breakpoint-down(md) {
+//     // .header {
+//     //     background:#fff;
+//     //     z-index: 3;
+//     //     // height: 80px;
+//     //     // position: fixed;
+//     //     // top: 0;
+//     //     // left: 0;
+//     //     // right: 0;
+//     //     // color: #fff;
+//     //     transition: all 0.3s ease;
+//     //     box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+//     // }
+//     // .menu.active {
+//     //     opacity: 1;
+//     //     visibility: visible;
+//     // }
+//     // .menu {
+//     //     position: absolute;
+//     //     left: 0;
+//     //     right: 0;
+//     //     top: 80px;
+//     //     background: $text_secondary;
+//     //     display: flex;
+//     //     flex-direction: column;
+//     //     justify-content: center;
+//     //     align-items: center;
+//     //     opacity: 0;
+//     //     visibility: hidden;
+//     //     transition: all 0.3 ease;
+//     //     height: 100%;
+//     // }
+//     // .burger {
+//     //     display: block;
+//     // }
+//     // .header .menu li {
+//     //     color: #DCD2C5;
+//     //     padding-top: 10px;
+//     //     margin-bottom: 10px;
+//     //     margin-left: 0;
+//     //     margin-right: 0 !important;
+//     // }
+//     // .current-content h2 {
+//     //     font-size: 18px;
+//     // }
+//     // .current-content {
+//     //     padding: 30px;
+//     // }
+//     // .global-block-title {
+//     //     font-size: 21px;
+//     // }
+//     // .global-text {
+//     //     font-size: 18px;
+//     // }
+//     // .our-team-right {
+//     //     padding-left: 15px;
+//     // }
+//     // .our-team-left {
+//     //     padding-right: 15px;
+//     // }
+//     // .about-us-block,
+//     // .blog-article {
+//     //     width: 100%;
+//     // }
+//     // .news-title {
+//     //     font-size: 24px;
+//     // }
+//     // .global-item {
+//     //     font-size: 20px;
+//     // }
+//     // .our-customers-title {
+//     //     line-height: 38px;
+//     //     font-size: 20px;
+//     // }
+//     // .news-img {
+//     //     height: 250px;
+//     // }
+// }
 
-/* ≥768px */
-@include media-breakpoint-down(sm) {
-    .indent-col {
-        margin-bottom: 20px;
-    }
-    .description {
-        padding-bottom: 100px;
-    }
-    .home-btn,
-    .about-us-link,
-    .news-left,
-    .news-right,
-    .contact,
-    .news-left-block,
-    .news-right-block {
-        width: 100%;
-    }
-    .reference-block h2,
-    .global-title,
-    .contact-us h3 {
-        font-size: 28px;
-    }
-    .reference,
-    .jobs-page,
-    .job-description-container,
-    .contact-map {
-        padding-bottom: 0;
-    }
-    .neurodiversity-item {
-        font-size: 32px;
-        line-height: 40px;
-    }
-    .current,
-    .global-top {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .global-top,
-    .header .container,
-    .home,
-    .global-header,
-    .jobs-page {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+// /* ≥768px */
+// @include media-breakpoint-down(sm) {
+//     // .indent-col {
+//     //     margin-bottom: 20px;
+//     // }
+//     // .description {
+//     //     padding-bottom: 100px;
+//     // }
+//     // .home-btn,
+//     // .about-us-link,
+//     // .news-left,
+//     // .news-right,
+//     // .contact,
+//     // .news-left-block,
+//     // .news-right-block {
+//     //     width: 100%;
+//     // }
+//     // .reference-block h2,
+//     // .global-title,
+//     // .contact-us h3 {
+//     //     font-size: 28px;
+//     // }
+//     // .reference,
+//     // .jobs-page,
+//     // .job-description-container,
+//     // .contact-map {
+//     //     padding-bottom: 0;
+//     // }
+//     // .neurodiversity-item {
+//     //     font-size: 32px;
+//     //     line-height: 40px;
+//     // }
+//     // .current,
+//     // .global-top {
+//     //     padding-top: 50px;
+//     //     padding-bottom: 50px;
+//     // }
+//     // .global-top,
+//     // .header .container,
+//     // .home,
+//     // .global-header,
+//     // .jobs-page {
+//     //     padding-left: 15px;
+//     //     padding-right: 15px;
+//     // }
 
-    .global-img {
-        height: 200px;
-        object-fit: cover;
-    }
-    .line-dec-content {
-        height: 80px;
-    }
-    .global-block-content {
-        // text-align: center;
-        margin-bottom: 50px;
-    }
-    .global-block-title {
-        min-height: 0;
-        margin-bottom: 10px;
-    }
-    .global-block-text {
-        min-height: 0;
-        margin-bottom: 10px;
-    }
-    // .neurodiversity-item {
-    //     font-size: 26px;
-    // }
-    .breadcrumbs {
-       display: none;
-    }
-    // .breadcrumbs-link {
-    //     margin-bottom: 8px;
-    // }
-    .page-description h1 {
-        font-size: 32px;
-        line-height: 36px;
-        margin-bottom: 20px;
-    }
-    .breadcrumbs-link img {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    // .breadcrumbs-item {
-    //     flex-direction: column-reverse;
-    // }
-    .line-dec {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .about-us-block {
-        padding-bottom: 70px;
-    }
-    .our-team,
-    .global-block {
-        padding-bottom: 35px;
-    }
-    .footer-content {
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
-    .news {
-        display: block;
-        padding-top: 35px;
-    }
-    .text-p,
-    .news-left-block {
-        margin-bottom: 35px;
-    }
-    .news-content {
-        display: block;
-    }
-    .news-card {
-        min-height: auto;
-    }
-    .blog-article {
-        padding-bottom: 60px;
-    }
-    .page-description-text {
-        font-size: 16px;
-    }
-    .page-description-top{
-        padding-bottom: 50px;
-        padding-top: 50px;
-    }
-    .jobs-block {
-        padding: 30px;
-    }
-    .contact {
-        padding-top: 50px;
-    }
-    .our-customers {
-        padding-top: 50px;
-        padding-bottom: 100px;
-    }
-    .jobs-content {
-        padding-bottom: 60px;
-        // margin-bottom: 110px;
-    }
-    // .breadcrumbs-article {
-    //     margin-bottom: 15px !important;
-    // }
-    .home {
-        padding-top: 30px;
-    }
-    .home-text {
-        font-size: 32px;
-        line-height: 37px;
-    }
-    .home-title {
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-    .reference-block p,
-    .contact-us div {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-    .neurodiversity-text,
-    .blog-article {
-        font-size: 18px;
-    }
-    .reference-block {
-        margin-bottom: 70px;
-    }
-    .contact-us {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .our-customers-mob,
-    .our-team-img-mob,
-    .arrow-left-mob {
-        display: block;
-    }
-    .mob-title {
-        color: $text_secondary;
-        font-size: 20px;
-        line-height: 25px;
-        margin-bottom: 5px;
-    }
-    .mob-text {
-        color: #AF8F72;
-        font-size: 18px;
-    }
-    .our-customers-content {
-        // padding: 30px;
-        height: 148px;
-        padding: 0;
-    }
-    // .our-customers-swiper {
-    //     display: none;
-    // }
-    .our-customers
-    .swiper-button-next {
-        top: 98%;
-        right: 15%;
-    }
-    .our-customers
-    .swiper-button-prev{
-        top: 98%;
-        left: 15%;
-    }
-    .our-customers-content,
-    .our-customers .markus {
-        background-size: contain;
-    }
-    .our-customers-content,
-    .our-customers-swiper,
-    .footer-menu,
-    .home-btn-mob,
-    .neurodiversity-mob,
-    .our-team-block-mob,
-    .contact-us-mob {
-        display: none;
-    }
-    .our-customers-mob-img {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .global-top-content {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .our-team-img-mob {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .news-right {
-        padding: 20px;
-    }
-    .go-block {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    // .news-block-img {
-    //     height: 100%;
-    //     min-height: auto;
-    // }
-}
+//     // .global-img {
+//     //     height: 200px;
+//     //     object-fit: cover;
+//     // }
+//     // .line-dec-content {
+//     //     height: 80px;
+//     // }
+//     // .global-block-content {
+//     //     // text-align: center;
+//     //     margin-bottom: 50px;
+//     // }
+//     // .global-block-title {
+//     //     min-height: 0;
+//     //     margin-bottom: 10px;
+//     // }
+//     // .global-block-text {
+//     //     min-height: 0;
+//     //     margin-bottom: 10px;
+//     // }
+//     // .neurodiversity-item {
+//     //     font-size: 26px;
+//     // }
+//     // .breadcrumbs {
+//     //    display: none;
+//     // }
+//     // .breadcrumbs-link {
+//     //     margin-bottom: 8px;
+//     // }
+//     // .page-description h1 {
+//     //     font-size: 32px;
+//     //     line-height: 36px;
+//     //     margin-bottom: 20px;
+//     // }
+//     // .breadcrumbs-link img {
+//     //     margin-left: 10px;
+//     //     margin-right: 10px;
+//     // }
+//     // .breadcrumbs-item {
+//     //     flex-direction: column-reverse;
+//     // }
+//     // .line-dec {
+//     //     padding-top: 50px;
+//     //     padding-bottom: 50px;
+//     // }
+//     // .about-us-block {
+//     //     padding-bottom: 70px;
+//     // }
+//     // .our-team,
+//     // .global-block {
+//     //     padding-bottom: 35px;
+//     // }
+//     // .footer-content {
+//     //     padding-top: 35px;
+//     //     padding-bottom: 35px;
+//     // }
+//     // .news {
+//     //     display: block;
+//     //     padding-top: 35px;
+//     // }
+//     // .text-p,
+//     // .news-left-block {
+//     //     margin-bottom: 35px;
+//     // }
+//     // .news-content {
+//     //     display: block;
+//     // }
+//     // .news-card {
+//     //     min-height: auto;
+//     // }
+//     // .blog-article {
+//     //     padding-bottom: 60px;
+//     // }
+//     // .page-description-text {
+//     //     font-size: 16px;
+//     // }
+//     // .page-description-top {
+//     //     padding-bottom: 50px;
+//     //     padding-top: 50px;
+//     // }
+//     // .jobs-block {
+//     //     padding: 30px;
+//     // }
+//     // .contact {
+//     //     padding-top: 50px;
+//     // }
+//     // .our-customers {
+//     //     padding-top: 50px;
+//     //     padding-bottom: 100px;
+//     // }
+//     // .jobs-content {
+//     //     padding-bottom: 60px;
+//     //     // margin-bottom: 110px;
+//     // }
+//     // .breadcrumbs-article {
+//     //     margin-bottom: 15px !important;
+//     // }
+//     // .home {
+//     //     padding-top: 30px;
+//     // }
+//     // .home-text {
+//     //     font-size: 32px;
+//     //     line-height: 37px;
+//     // }
+//     // .home-title {
+//     //     font-size: 25px;
+//     //     margin-bottom: 20px;
+//     // }
+//     // .reference-block p,
+//     // .contact-us div {
+//     //     font-size: 18px;
+//     //     margin-bottom: 20px;
+//     // }
+//     // .neurodiversity-text,
+//     // .blog-article {
+//     //     font-size: 18px;
+//     // }
+//     // .reference-block {
+//     //     margin-bottom: 70px;
+//     // }
+//     // .contact-us {
+//     //     padding-top: 60px;
+//     //     padding-bottom: 60px;
+//     // }
+//     // .our-customers-mob,
+//     // .our-team-img-mob,
+//     // .arrow-left-mob {
+//     //     display: block;
+//     // }
+//     // .mob-title {
+//     //     color: $text_secondary;
+//     //     font-size: 20px;
+//     //     line-height: 25px;
+//     //     margin-bottom: 5px;
+//     // }
+//     // .mob-text {
+//     //     color: #AF8F72;
+//     //     font-size: 18px;
+//     // }
+//     // .our-customers-content {
+//     //     // padding: 30px;
+//     //     height: 148px;
+//     //     padding: 0;
+//     // }
+//     // .our-customers-swiper {
+//     //     display: none;
+//     // }
+//     // .our-customers
+//     // .swiper-button-next {
+//     //     top: 98%;
+//     //     right: 15%;
+//     // }
+//     // .our-customers
+//     // .swiper-button-prev{
+//     //     top: 98%;
+//     //     left: 15%;
+//     // }
+//     // .our-customers-content,
+//     // .our-customers .markus {
+//     //     background-size: contain;
+//     // }
+//     // .our-customers-content,
+//     // .our-customers-swiper,
+//     // .footer-menu,
+//     // .home-btn-mob,
+//     // .neurodiversity-mob,
+//     // .our-team-block-mob,
+//     // .contact-us-mob {
+//     //     display: none;
+//     // }
+//     // .our-customers-mob-img {
+//     //     display: block;
+//     //     width: 100%;
+//     //     height: 100%;
+//     // }
+//     // .global-top-content {
+//     //     display: flex;
+//     //     flex-direction: column-reverse;
+//     // }
+//     // .our-team-img-mob {
+//     //     width: 100%;
+//     //     margin-bottom: 10px;
+//     // }
+//     // .news-right {
+//     //     padding: 20px;
+//     // }
+//     // .go-block {
+//     //     padding-top: 70px;
+//     //     padding-bottom: 70px;
+//     // }
+//     // .news-block-img {
+//     //     height: 100%;
+//     //     min-height: auto;
+//     // }
+// }
 
 
-/* ≥576px */
-@include media-breakpoint-down(xs) {
+// /* ≥576px */
+// @include media-breakpoint-down(xs) {
 
-}
-@media (max-width: 320px) {
-    .page-description h1 {
-        font-size: 22px;
-    }
-    .contact-us h3 {
-        font-size: 28px;
-    }
-    .news-right,
-    .news-card {
-        padding: 30px;
-    }
-    .page-description-text {
-        font-size: 12px;
-    }
-    .blog-article-block {
-        padding: 20px;
-    }
-    .jobs-block h2 {
-        font-size: 22px;
-    }
-    .home-content {
-        justify-content: center;
-        padding: 20px;
-    }
-    .global-item {
-        font-size: 18px;
-    }
-}
+// }
+// @media (max-width: 320px) {
+//     .page-description h1 {
+//         font-size: 22px;
+//     }
+//     .contact-us h3 {
+//         font-size: 28px;
+//     }
+//     .news-right,
+//     .news-card {
+//         padding: 30px;
+//     }
+//     .page-description-text {
+//         font-size: 12px;
+//     }
+//     .blog-article-block {
+//         padding: 20px;
+//     }
+//     .jobs-block h2 {
+//         font-size: 22px;
+//     }
+//     .home-content {
+//         justify-content: center;
+//         padding: 20px;
+//     }
+//     .global-item {
+//         font-size: 18px;
+//     }
+// }
 
-/* ==========  Mobile First  ========== */
+// /* ==========  Mobile First  ========== */
 
-/* ≤576px */
-@include media-breakpoint-up(sm) {
+// /* ≤576px */
+// @include media-breakpoint-up(sm) {
 
-}
+// }
 
-/* ≤768px */
-@include media-breakpoint-up(md) {
+// /* ≤768px */
+// @include media-breakpoint-up(md) {
 
-}
+// }
 
-/* ≤992px */
-@include media-breakpoint-up(lg) {
+// /* ≤992px */
+// @include media-breakpoint-up(lg) {
 
-}
+// }
 
-/* ≤1200px */
-@include media-breakpoint-up(xl) {
-    .our-customers-mob,
-    .our-customers-mob-img,
-    .our-team-img-mob,
-    .arrow-left-mob {
-        display: none;
-    }
-}
+// /* ≤1200px */
+// @include media-breakpoint-up(xl) {
+//     // .our-customers-mob,
+//     // .our-customers-mob-img,
+//     // .our-team-img-mob,
+//     // .arrow-left-mob {
+//     //     display: none;
+//     // }
+// }
 

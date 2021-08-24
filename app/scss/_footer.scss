@@ -6,6 +6,10 @@
         padding-top: 80px;
         padding-bottom: 80px;
         background: #F0EDE9;
+        @include for-sm {
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
     }
     &-logo {
         margin-bottom: 60px;
@@ -26,6 +30,11 @@
             &:hover {
                 color: #AF8F72;
             }
+        }
+    }
+    &-menu {
+        @include for-sm {
+            display: none;
         }
     }
     &-data {

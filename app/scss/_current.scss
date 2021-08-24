@@ -3,11 +3,39 @@
     padding-top: 90px;
     display: flex;
     // margin-bottom: 110px;
+    @include for-md {
+        flex-direction: column;
+    }
+    @include for-sm {
+        // display: block;
+        padding-top: 35px;
+    }
     &-left {
         width: 45%;
         &-block {
             width: 45%;
+            display: flex;
+            flex-direction: column;
             // margin-right: 50px;
+            @include for-md {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+            @include for-sm {
+                margin-bottom: 35px;
+            }
+        }
+        img {
+            @include for-md {
+                width: 100%;
+            }
+            @include for-lg {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        @include for-md {
+            width: 100%;
         }
     }
     &-right {
@@ -16,6 +44,19 @@
         background: #F0EDE9;
         &-block {
             width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            @include for-md {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+        @include for-md {
+            width: 100%;
+        }
+        @include for-sm {
+            padding: 20px;
         }
     }
     &-img {
@@ -25,6 +66,9 @@
             height: 100%;
             object-fit: cover;
         }
+        // @include for-md {
+        //     height: 250px;
+        // }
     }
     // &-block {
     //     // &-img {
@@ -40,13 +84,26 @@
     &-card {
         padding: 50px;
         background: #F0EDE9;
-        min-height: 424px;
-        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        // min-height: 424px;
+        // height: auto;
+        @include for-sm {
+            padding: 20px;
+        }
     }
     &-content {
         display: flex;
         justify-content: space-between;
         margin-bottom: 90px;
+        @include for-md {
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+        // @include for-sm {
+        //     display: block;
+        // }
     }
     &-link {
         display: flex;
