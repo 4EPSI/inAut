@@ -357,6 +357,9 @@
 	}
 	&-block {
 		margin-bottom: 100px;
+		// display: flex;
+		// flex-direction: column;
+		// flex-grow: 1;
 		img {
 			margin-bottom: 10px;
 		}
@@ -453,11 +456,11 @@
 		padding: 40px;
 		text-align: center;
 		min-height: 420px;
+		height: 435px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-around;
-		height: 435px;
 		img {
 			// margin-bottom: 40px;
 		}
