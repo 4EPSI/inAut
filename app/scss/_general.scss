@@ -167,7 +167,7 @@ button, .btn {
         padding-right: 40px;
         @include for-sm {
             padding-top: 50px;
-            padding-bottom: 50px;
+            padding-bottom: 30px;
             padding-left: 15px;
             padding-right: 15px;
         }
@@ -209,7 +209,8 @@ button, .btn {
         font-weight: 700;
         line-height: 50px;
         @include for-sm {
-            font-size: 28px;
+            font-size: 26px;
+            line-height: 36px;
         }
     }
     &-text {
@@ -266,8 +267,11 @@ button, .btn {
             color: $accent;
             margin-bottom: 30px;
             // min-height: 75px;
+            @include for-lg {
+                font-size: 28px;
+            }
             @include for-md {
-                font-size: 20px;
+                font-size: 18px;
             }
             @include for-sm {
                 // min-height: 0;
@@ -356,7 +360,7 @@ button, .btn {
         line-height: 50px;
         max-width: 700px;
         @include for-sm {
-            font-size: 32px;
+            font-size: 24px;
             line-height: 36px;
             margin-bottom: 20px;
         }
@@ -395,9 +399,12 @@ button, .btn {
         }
     }
     &-text {
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 700;
         color: #AF8F72;
+        @include for-sm {
+            font-size: 14px;
+        }
     }
     &-premature {
         display: flex;

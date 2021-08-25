@@ -44,6 +44,9 @@
         li {
             list-style: disc;
         }
+        @include for-sm {
+            display: none;
+        }
     }
     @include for-lg {
         width: 100%;

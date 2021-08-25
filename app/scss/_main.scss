@@ -25,6 +25,10 @@
 		justify-content: flex-end;
 		padding: 70px;
 		// width: 1110px;
+		@include for-sm {
+			padding: 30px;
+			padding-bottom: 50px;
+		}
 	}
 	.container {
 		max-width: 100%;
@@ -48,6 +52,7 @@
 		font-size: 50px;
 		line-height: 58px;
 		margin-bottom: 30px;
+		max-width: 800px;
 		@include for-sm {
 			font-size: 32px;
 			line-height: 36px;
@@ -499,6 +504,10 @@
 			display: none;
 		}
 	}
+	@include for-sm {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
 }
 
 // current
@@ -752,6 +761,16 @@
 			@include for-sm {
 				color: #AF8F72;
 				font-size: 18px;
+			}
+		}
+		.mob-ul {
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding: 20px;
+			color: $accent;
+			font-size: 18px;
+			li {
+				list-style: disc;
 			}
 		}
 		@include for-lg {

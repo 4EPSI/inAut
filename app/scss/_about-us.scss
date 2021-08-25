@@ -32,6 +32,9 @@
         color: $accent;
         font-weight: 700;
         margin-bottom: 30px;
+        @include for-sm {
+            font-size: 30px;
+        }
     }
     &-text {
         font-size: 22px;
@@ -197,6 +200,9 @@
             width: 100%;
             margin-bottom: 10px;
         }
+    }
+    @include for-lg {
+        padding-bottom: 100px;
     }
     @include for-sm {
         padding-bottom: 35px;

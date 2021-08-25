@@ -59,6 +59,9 @@
     }
     &-map {
         padding-bottom: 200px;
+        @include for-md {
+            padding-bottom: 100px;
+        }
         @include for-sm {
             padding-bottom: 0;
         }
